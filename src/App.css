@@ -117,8 +117,9 @@ body {
   }
 }
 
-.button:hover {
-  opacity: 0.8;
+.button:hover,
+.button.button-animate:hover {
+  opacity: 0.9 !important;
 }
 
 .button_secondary {
@@ -134,11 +135,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease, border-color 0.2s ease;
   }
 
-.button_secondary:hover {
-  opacity: 0.8;
+.button_secondary:hover,
+.button_secondary.button-animate:hover {
+  opacity: 0.9 !important;
+  border-color: rgba(81, 81, 81, 0.7);
 }
 
 p {
