@@ -1,7 +1,7 @@
 import './App.css'
 
 export function App() {
-  const text = "Ivan Carlos is a designer engineer and motion design. He works with studios, brand and individuals worldwide to build remarkable yet performant digital experiencies across the fields of art, culture and commerce."
+  const text = "Ivan Carlos is a Design Engineer and Motion Designer. He partners with studios, brands, and individuals worldwide to craft remarkable, performant digital experiences spanning art, culture, and commerce."
   
   const firstPartEnd = text.indexOf('.')
   const firstPart = text.substring(0, firstPartEnd + 1)
